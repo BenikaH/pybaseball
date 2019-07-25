@@ -1,0 +1,7 @@
+pytest
+pandas>=0.20.2
+numpy>=1.13.0
+beautifulsoup4>=4.4.0
+requests>=2.18.1
+lxml>=4.2.1
+selenium

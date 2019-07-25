@@ -1,4 +1,4 @@
-import pybaseball.utils
+import baseball_scraper.utils
 from .playerid_lookup import playerid_reverse_lookup
 from .playerid_lookup import playerid_lookup
 from .statcast import statcast, statcast_single_game
@@ -11,7 +11,6 @@ from .league_pitching_stats import pitching_stats_bref
 from .league_pitching_stats import pitching_stats_range
 from .league_pitching_stats import bwar_pitch
 from .standings import standings
-from .team_results import schedule_and_record
 from .pitching_leaders import pitching_stats
 from .batting_leaders import batting_stats
 from .team_pitching import team_pitching
@@ -35,6 +34,7 @@ from .lahman import home_games
 from .lahman import managers
 from .lahman import managers_half
 from .lahman import master
+from .lahman import people
 from .lahman import pitching
 from .lahman import pitching_post
 from .lahman import salaries
@@ -44,3 +44,9 @@ from .lahman import teams
 from .lahman import teams_franchises
 from .lahman import teams_half
 from .lahman import download_lahman
+from .retrosheet import season_game_logs
+from .retrosheet import world_series_logs
+from .retrosheet import all_star_game_logs
+from .retrosheet import wild_card_logs
+from .retrosheet import division_series_logs
+from .retrosheet import lcs_logs
